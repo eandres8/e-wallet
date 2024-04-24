@@ -1,3 +1,8 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { DashboardComponent } from './pages';
+
+export const routes: Routes = [
+  { path: 'dashboard', component: DashboardComponent },
+  { path: '**', redirectTo: '' },
+];

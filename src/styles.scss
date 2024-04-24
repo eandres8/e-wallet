@@ -39,3 +39,14 @@ $e-wallet-theme: mat.define-light-theme((
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.spacer {
+  flex: 1;
+}
+
+.page-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}

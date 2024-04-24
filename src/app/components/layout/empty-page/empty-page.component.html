@@ -1,0 +1,11 @@
+<div class="empty-page">
+  <div class="empty-page--image">
+    <img src="assets/icons/no-image.svg" alt="No image">
+  </div>
+  <p class="empty-page--text">{{ text }}</p>
+
+  @if (!!textLink && !!path) {
+    <a [routerLink]="[path]">{{ textLink }}</a>
+  }
+  
+</div>
